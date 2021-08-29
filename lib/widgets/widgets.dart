@@ -26,7 +26,7 @@ class cWidgets {
       child: Text("$text"),
       style: ElevatedButton.styleFrom(
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(sizeConfig.mediumSize)
+          borderRadius: BorderRadius.circular(sizeConfig.mediumSize*2)
         )
       ),
     );
